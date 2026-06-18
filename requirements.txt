@@ -1,0 +1,19 @@
+# Core data + ML stack (versions pinned from the environment the notebook was run in)
+pandas==3.0.3
+numpy==2.4.6
+scikit-learn==1.9.0
+scipy==1.17.1
+matplotlib==3.11.0
+seaborn==0.13.2
+
+# Time-series paradigm (SARIMAX)
+statsmodels==0.14.6
+
+# Sequential-NN paradigm (LSTM). CPU build.
+# If the plain install pulls a GPU wheel on your platform, use the CPU index instead:
+#   pip install torch==2.12.1 --index-url https://download.pytorch.org/whl/cpu
+torch==2.12.1
+
+# Notebook runtime
+jupyterlab==4.5.9
+ipykernel==7.3.0
